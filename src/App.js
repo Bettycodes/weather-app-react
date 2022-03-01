@@ -43,6 +43,8 @@ export default function WeatherApp(props) {
           <img src={icon} alt="weather icon" />
         </li>
       </ul>
+      <br/>
+      <p><a href="https://github.com/Bettycodes/weather-app-react.git" className="github">Source code</a> Bethel Girma</p>
     </div>
   );
 }

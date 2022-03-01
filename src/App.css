@@ -44,6 +44,10 @@ body,
   list-style: none;
 }
 
+.github{
+  color: rgb(148, 141, 141);
+}
+
 @media only screen and (max-width: 600px) {
   .search {
     padding: 20px 15%;
