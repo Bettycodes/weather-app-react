@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+  font: 1rem sans-serif;
+  background: #0a1f44;
+  color: #fff;
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-container {
+  background: url("../src/images/forrest.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  height: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+
+.search {
+  outline: none;
+  padding: 20px 7%;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 5%;
+  background: rgba(226, 189, 189, 0.85);
+}
+
+.city {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  padding: 40px 8%;
+  border-radius: 20px;
+  background: rgba(226, 189, 189, 0.85);
+  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  .search {
+    padding: 20px 15%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .city {
+    padding: 40px 20%;
   }
 }
