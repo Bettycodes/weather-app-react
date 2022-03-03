@@ -35,7 +35,10 @@ export default function WeatherApp(props) {
         <input type="search" placeholder="Name city" onChange={City} />
         <input type="submit" value="search" />
       </form>
+      
       <ul  className="city" >
+        <h1 className="text-capitalize">{city}</h1>
+        
         <li>Temperature:{Math.round(temp)}</li>
         <li>Humidity:{Math.round(humidity)}%</li>
         <li>Wind:{Math.round(wind)}km/h</li>
