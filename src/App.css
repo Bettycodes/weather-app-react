@@ -29,19 +29,33 @@ body,
   border-radius: 20px;
   border: none;
   margin-bottom: 5%;
-  background: rgba(226, 189, 189, 0.85);
+  background: rgba(243, 143, 12, 0.664);
+  box-shadow: 10px 10px 5px 0px rgba(14, 9, 9, 0.404);
 }
 
 .city {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding: 40px 8%;
   border-radius: 20px;
-  background: rgba(226, 189, 189, 0.85);
-  box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  background: rgba(243, 143, 12, 0.664);
+  box-shadow: 10px 10px 5px 0px rgba(14, 9, 9, 0.404);
   list-style: none;
+}
+.cityName{
+  padding-right: 70px;
+}
+.temperature{
+  font-size: 25px;
+}
+
+.celsius{
+  color: #fff;
+  text-decoration: none;
+}
+
+.celsius:hover{
+  color: #fff;
 }
 
 .github{
@@ -57,3 +71,5 @@ body,
     padding: 40px 20%;
   }
 }
+
+
