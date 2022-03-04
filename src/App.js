@@ -43,7 +43,7 @@ export default function WeatherApp(props) {
         
         <div className="grid">
           <div className="col-6">
-          <li>Temperature:<strong className="temperature">{Math.round(temp)}</strong><a href="#" className="celsius">°C</a></li>
+          <li>Temperature:<strong className="temperature">{Math.round(temp)}</strong><a href="https://sad-dijkstra-d03c5b.netlify.app" className="celsius">°C</a></li>
         <li>
           <img src={icon} alt="weather icon" />
         </li>
